@@ -1,0 +1,14 @@
+TC;Input;Expected output;Actual output
+#1;Nguyen|Van|A|nguyenvana@gmail.com|123|IT|res.pdf|it|hello|6/19/2023;TRUE;"Hiển thị thông báo thêm thành công";saved successfully
+#2;|Van|B|nguyenvanb@gmail.com|123|IT|res.pdf|it|hello|6/19/2023;TRUE;"Hiển thị thông báo phải nhập First name";Input firstname: Required
+#3;Nguyen|Van||nguyenvanc@gmail.com|123|IT|res.pdf|it|hello|6/19/2023;TRUE;"Hiển thị thông báo phải nhập Last name";Input lastName: Required
+#4;Nguyen|Van|A||123|IT|res.pdf|it|hello|6/19/2023;TRUE;"Hiển thị thông báo phải nhập Email";Input email: Required
+#5;Nguyen|Van|A|nguyenvana|123|IT|res.pdf|it|hello|6/19/2023;TRUE;"Hiển thị thông báo phải nhập Email đúng định dạng";Input email: Expected format: admin@example.com
+#6;|||||||||;;Hiển thị thông báo phải nhập dữ liệu;Input firstname: Required|Input lastName: Required|Input email: Required
+#7;Nguyen |Cong |Phuong|nguyencongphuong@gmail.com||IT|soc.pdf|soccer|Good|6/19/2023;TRUE;Thông báo thêm thành công;saved successfully
+#8;Nguyen|Cong |Phuong|nguyencongphuong@gmail.com|123|IT|soc.png|soccer|Good|6/19/2023;TRUE;Hiển thị thông báo file không đúng định dạng;saved successfully
+#9;Nguyen|Van|A|nguyenvana@gmail.com|123||res.pdf|it|hello|6/19/2023;TRUE;Thông báo thêm thành công;saved successfully
+#10;Nguyen|Van|A|nguyenvana@gmail.com|123|IT|res.pdf||hello|6/19/2023;TRUE;Thông báo thêm thành công;saved successfully
+#11;##@@@!123|Van|A|nguyenvana@gmail.com|123|IT|res.pdf|it|hello|6/19/2023;TRUE;Hiển thị thông báo không cho người dùng nhập các ký tự đặc biệt vào First name;saved successfully
+#12;Nguyen|Van|##@@@!123|nguyenvana@gmail.com|123|IT|res.pdf|it|hello|6/19/2023;TRUE;Hiển thị thông báo không cho người dùng nhập các ký tự đặc biệt vào Last name;saved successfully
+#13;Nguyen|Van|A|nguyenvana@gmail.com|##@@@!123|IT|res.pdf|it|hello|6/19/2023;TRUE;Hiển thị thông báo  không cho nhập các ký tự không phải là số vào trường Contact No;Input email: Allows numbers and only + - / ( )

@@ -1,0 +1,14 @@
+﻿First name,Middle name,Last name,Email ,Contact No,Job Vacancy,Resume,Keywords,Comment,Date of Application,Consent to keep data,Expected Output
+Nguyen,Van,A,nguyenvana@gmail.com,123,IT,res.pdf,it,hello,6/19/2023,TRUE,"Hiển thị thông báo thêm thành công"
+,Van,B,nguyenvanb@gmail.com,123,IT,res.pdf,it,hello,6/19/2023,TRUE,"Hiển thị thông báo phải nhập First name"
+Nguyen,Van,,nguyenvanc@gmail.com,123,IT,res.pdf,it,hello,6/19/2023,TRUE,"Hiển thị thông báo phải nhập Last name"
+Nguyen,Van,A,,123,IT,res.pdf,it,hello,6/19/2023,TRUE,"Hiển thị thông báo phải nhập Email"
+Nguyen,Van,A,nguyenvana,123,IT,res.pdf,it,hello,6/19/2023,TRUE,"Hiển thị thông báo phải nhập Email đúng định dạng"
+,,,,,,,,,,,Hiển thị thông báo phải nhập dữ liệu
+Nguyen ,Cong ,Phuong,nguyencongphuong@gmail.com,,IT,soc.pdf,soccer,Good,6/19/2023,TRUE,Thông báo thêm thành công
+Nguyen,Cong ,Phuong,nguyencongphuong@gmail.com,123,IT,soc.png,soccer,Good,6/19/2023,TRUE,Hiển thị thông báo file không đúng định dạng
+Nguyen,Van,A,nguyenvana@gmail.com,123,,res.pdf,it,hello,6/19/2023,TRUE,Thông báo thêm thành công
+Nguyen,Van,A,nguyenvana@gmail.com,123,IT,res.pdf,,hello,6/19/2023,TRUE,Thông báo thêm thành công
+##@@@!123,Van,A,nguyenvana@gmail.com,123,IT,res.pdf,it,hello,6/19/2023,TRUE,Hiển thị thông báo không cho người dùng nhập các ký tự đặc biệt vào First name
+Nguyen,Van,##@@@!123,nguyenvana@gmail.com,123,IT,res.pdf,it,hello,6/19/2023,TRUE,Hiển thị thông báo không cho người dùng nhập các ký tự đặc biệt vào Last name
+Nguyen,Van,A,nguyenvana@gmail.com,##@@@!123,IT,res.pdf,it,hello,6/19/2023,TRUE,Hiển thị thông báo  không cho nhập các ký tự không phải là số vào trường Contact No

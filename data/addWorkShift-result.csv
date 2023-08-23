@@ -1,0 +1,12 @@
+TC;Input;Expected output;Actual output
+#1;Test|09:00|11:00|nguyen hoang luan;Work Shift được thêm thành công
+#2;|11:00|11:00|nguyen hoang luan;Thông báo chưa nhập trường Work Shift;Input shif name: Required
+#3;Test|05:45|00:00|nguyen hoang luan;Thông báo thời gian từ From phải nhỏ hơn To;Input shif name: Already exists
+#4;Test|05:45|05:45|nguyen hoang luan;Thông báo thời gian từ From phải nhỏ hơn To;Input shif name: Already exists
+#5;Test|05:45|06:00|;Vẫn Add được Work Shift;Input shif name: Already exists
+#6;Test|05:45|06:00|nguyen hoang luan;Vẫn Add được Work Shift;Input shif name: Already exists
+#7;Test||00:00|nguyen hoang luan;Thông báo phải chọn From (Work Hours);Input shif name: Already exists
+#8;Test|09:00||nguyen hoang luan;Thông báo phải chọn To (Work Hours);Input shif name: Already exists
+#9;Test|||nguyen hoang luan;Thông báo phải chọn From và To (Work Hours);Input shif name: Already exists
+#10;|||;Thông báo phải chọn các trường rồi mới nhấn Save;Input shif name: Required
+#11;111111111111111111111111111111aa11111111111111111111|09:00|11:00|nguyen hoang luan;Thông báo không cho nhập quá 50 ký tự;Input shif name: Should be less than 50 characters

@@ -1,0 +1,12 @@
+﻿Shift name,From (Work Hours),To (Work Hours),Available Employees,Expected Output
+Test,09:00,11:00,nguyen hoang luan,Work Shift được thêm thành công
+,11:00,11:00,nguyen hoang luan,Thông báo chưa nhập trường Work Shift
+Test,05:45,00:00,nguyen hoang luan,Thông báo thời gian từ From phải nhỏ hơn To
+Test,05:45,05:45,nguyen hoang luan,Thông báo thời gian từ From phải nhỏ hơn To
+Test,05:45,06:00,,Vẫn Add được Work Shift
+Test,05:45,06:00,nguyen hoang luan,Vẫn Add được Work Shift
+Test,,00:00,nguyen hoang luan,Thông báo phải chọn From (Work Hours)
+Test,09:00,,nguyen hoang luan,Thông báo phải chọn To (Work Hours)
+Test,,,nguyen hoang luan,Thông báo phải chọn From và To (Work Hours)
+,,,,Thông báo phải chọn các trường rồi mới nhấn Save
+111111111111111111111111111111aa11111111111111111111,09:00,11:00,nguyen hoang luan,Thông báo không cho nhập quá 50 ký tự

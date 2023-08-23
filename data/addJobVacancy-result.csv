@@ -1,0 +1,13 @@
+TC;Input;Expected output;Actual output
+#1;IT|IT|Nguyen Van A|1|okla;TRUE;
+#2;|IT|Nguyen Van A|1|okla;TRUE;Input jobTitle: Requiredundefined|Input vacancyName: Already exists
+#3;IT||Nguyen Van A|1|okla;TRUE;Input vacancyName: Required
+#4;IT|IT||1|okla;TRUE;Input vacancyName: Already exists|Input manager: Invalid
+#5;IT|IT|Do Duy Manh|1|okla;TRUE;Input vacancyName: Already exists|Input manager: Invalid
+#6;||||;;Input jobTitle: Requiredundefined|Input vacancyName: Required|Input manager: Invalid
+#7;SEO|SEO|Nguyen Van B||okla;TRUE;
+#8;SEO|SEO|Nguyen Van C|1|;TRUE;Input vacancyName: Already exists
+#9;SEO|SEO|Nguyen Van C|1|okla;;Input vacancyName: Already exists
+#10;SEO|SEO|Nguyen Van C|1|okla;TRUE;Input vacancyName: Already exists
+#11;SEO|SEO|Nguyen Van C|1|okla;TRUE;Input vacancyName: Already exists
+#12;SEO|SEO|Nguyen Van C|aa|okla;TRUE;Input vacancyName: Already exists|Input numPos: Should be a positive number

@@ -1,0 +1,13 @@
+﻿Job Title,Vacancy Name ,Hiring Manager,Number of Positions,Description,Active,Publish in RSS feed(1) and web page(2),Expected Output
+IT,IT,Nguyen Van A,1,okla,TRUE,TRUE,Vị trí tuyển dụng được thêm thành công
+,IT,Nguyen Van A,1,okla,TRUE,TRUE,Hiển thị lỗi chưa chọn Job Title
+IT,,Nguyen Van A,1,okla,TRUE,TRUE,Hiển thị lỗi chưa nhập Vacancy Name
+IT,IT,,1,okla,TRUE,TRUE,Hiển thị lỗi chưa nhập Hiring Manager
+IT,IT,Do Duy Manh,1,okla,TRUE,TRUE,Hiển thị lỗi Hiring Manager không hợp lệ
+,,,,,,,Hiển thị lỗi yêu cầu nhập các trường bắt buộc
+SEO,SEO,Nguyen Van B,,okla,TRUE,TRUE,Vị trí tuyển dụng được thêm thành công
+SEO,SEO,Nguyen Van C,1,,TRUE,TRUE,Vị trí tuyển dụng được thêm thành công
+SEO,SEO,Nguyen Van C,1,okla,,TRUE,Vị trí tuyển dụng được thêm thành công
+SEO,SEO,Nguyen Van C,1,okla,TRUE,,Vị trí tuyển dụng được thêm thành công
+SEO,SEO,Nguyen Van C,1,okla,TRUE,TRUE,Vị trí tuyển dụng được thêm thành công
+SEO,SEO,Nguyen Van C,aa,okla,TRUE,TRUE,Thông báo giá trị Number of Positions nên là số dương
